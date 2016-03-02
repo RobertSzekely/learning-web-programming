@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+  <!--  <meta charset="utf-8"> -->
     <title>FirstLabAssigment</title>
+  <!-- CSS
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+      th, td {
+        padding: 5px;
+      }
+      td {
+        text-align: center;
+      }
+     tr:nth-child(even) {
+       background-color: #eee;
+     }
+     tr:nth-child(odd) {
+       background-color: #fff;
+     }
+     th {
+       color: white;
+       background-color: black;
+     }
+     </style>
+   -->
   </head>
   <body>
-    <table border="1">
+    <table>
       <tr>
-        <th colspan = "4"> Fisa de comanda </th>
+        <th colspan = "4">  Formular inregistrare </th>
       </tr>
       <tr>
         <td> <b> Forma de adresare </b></td>
@@ -23,14 +47,20 @@
         <td> <form> <input type="text" name="prenume"> </form> </td>
       </tr>
       <tr>
-        <td> <b> Adresa </b></td>
+        <td><b> CNP </b></td>
+        <td> <form> <input type="text" name="cnp"> </form> </td>
+        <td><b> Telefon* </b></td>
+        <td> <form> <input type="text" name="telefon"> </form> </td>
+      </tr>
+      <tr>
+        <td> <b> Adresa* </b></td>
         <td> <form> <input type="text" name="adresa"> </form> </td>
-        <td> <b> Oras </b> </td>
+        <td> <b> Oras* </b> </td>
         <td> <form> <input type="text" name="adresa"> </form> </td>
       </tr>
       <tr>
         <td>
-         <form> <b> Judet </b>
+         <form> <b> Judet* </b>
                   <select name="judete">
                         <option value = "AB">Alba </option>
                         <option value = "AR">Arad </option>
@@ -76,9 +106,12 @@
                         <option value = "VR">Vrancea </option>
                   </select>
               </form> </td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td><b>Tara </b>
+                <select name="tara">
+                  <option value = "RO"> Romania </option>
+                </select></td>
+          <td><b>Cod Postal </b></td>
+          <td><form> <input type="text" name="codpostal"> </form></td>
       </tr>
 
     </table>
