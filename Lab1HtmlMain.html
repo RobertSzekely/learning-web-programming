@@ -3,7 +3,7 @@
   <head>
   <!--  <meta charset="utf-8"> -->
     <title>FirstLabAssigment</title>
-
+<!--
     <style>
       table, th, td {
         border: 1px solid black;
@@ -26,10 +26,10 @@
        background-color: black;
      }
      </style>
-
+-->
   </head>
   <body>
-    <table>
+    <table border="1">
       <tr>
         <th colspan = "4">  Formular inregistrare </th>
       </tr>
@@ -37,13 +37,13 @@
         <td> <b> Forma de adresare </b></td>
         <td> <form> Dl. <input type="radio" name="adresare" value="Dl." checked>
                     Dna. <input type="radio" name="adresare" value="Dna."> </form> </td>
-        <td> <b> Data </b> </td>
-        <td> <form> <input type="text" name ="data"> </form></td>
-      </tr>
-      <tr>
         <td> <b> Nume* </b> </td>
         <td> <form> <input type="text" name ="nume"> </form></td>
+      </tr>
+      <tr>
         <td> <b> Prenume* </b> </td>
+        <td> <form> <input type="text" name ="nume"> </form></td>
+        <td> <b> CNP </b> </td>
         <td> <form> <input type="text" name="prenume"> </form> </td>
       </tr>
       <tr>
@@ -128,19 +128,20 @@
           </td>
       </tr>
       <tr>
-        <td><b> CNP </b></td>
-        <td> <form> <input type="text" name="cnp"> </form> </td>
+        <td><b> E-mail* </b></td>
+        <td> <form> <input type="text" name="email"> </form> </td>
         <td><b> Telefon* </b></td>
         <td> <form> <input type="text" name="telefon"> </form> </td>
       </tr>
       <tr>
-        <td> <b> Adresa* </b></td>
+        <td rowspan="2" > <b> Adresa* </b></td>
         <td> <form> <input type="text" name="adresa"> </form> </td>
         <td> <b> Oras* </b> </td>
-        <td> <form> <input type="text" name="adresa"> </form> </td>
+        <td> <form> <input type="text" name="oras"> </form> </td>
       </tr>
       <tr>
         <td>
+        <!--  <td> <b> Oras* </b> </td> -->
          <form> <b> Judet* </b>
                   <select name="judete">
                         <option value = "AB">Alba </option>
@@ -191,8 +192,8 @@
                 <select name="tara">
                   <option value = "RO"> Romania </option>
                 </select></td>
-          <td><b>Cod Postal </b></td>
-          <td><form> <input type="text" name="codpostal"> </form></td>
+          <td><b>Cod Postal </b>
+          <form> <input type="text" name="codpostal"> </form></td>
       </tr>
       <tr>
         <td> <b>Username* </b> </td>
@@ -205,13 +206,28 @@
       <td colspan="4"> <textarea name="message" rows="5" cols="30">
             Competati eventualele observatii...
           </textarea>
+          <input type="submit">
 
       </td>
     </tr>
     <tr>
+      <td colspan="2"> Sunt de acord cu termenii si conditiile. </td>
+      <td colspan="2">
+                  <form>
+                       Da <input type="radio" name="acord" value="Da" checked>
+                          Nu <input type="radio" name="acord" value="Nu"> </form> </td>
+    </tr>
+    <tr>
+      <td colspan="2"> Doresc sa ma abonez la newsletter.  </td>
+      <td colspan="2">
+                  <form>
+                       Da <input type="radio" name="acord" value="Da" checked>
+                          Nu <input type="radio" name="acord" value="Nu"> </form> </td>
+    </tr>
+    <tr>
       <td colspan="2"> Campurile cu (*) sunt obligatorii! </td>
-      <td> <a href = "contact.html"> Contact </td>
-      <td> <a href = "faq.html"> FAQ </td>
+      <td> <a href = "contact.html"> Contact </a> </td>
+      <td> <a href = "faq.html"> FAQ </a> </td>
     </tr>
 
     </table>
