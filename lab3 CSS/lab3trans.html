@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sliding image on hover</title>
+    <style>
+    body {
+      padding: 50px;
+    }
+    .pictureContainer {
+      background-color: black;
+      width: 100%;
+      height: 150px;
+      overflow: hidden;
+    }
+    .pictureContainer img {
+      transition: transform .2s ease-in-out;
+    }
+    .pictureContainer img:hover {
+      transform: translate3d(0px, -150px, 0px);
+    }
+    .maincontent {
+      margin: 0;
+      margin-top: 0;
+      background-image: url("p1.png");
+      background-size: cover;
+      height: 200px;
+    }
+    .maincontent:hover {
+      background-image: url("p2.png");
+    }
+    .focus {
+      color: transparent;
+      text-shadow: 0 0 5px rgba(0,0,0,0.5);
+      text-decoration: none;
+    }
+    .navbar {
+      list-style: none;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+      width: 130px;
+      height: 1000px;
+      float: left;
+      padding: 5px;
+    }
+
+    .focus:hover {
+      font-size: 31px;
+      color:white;
+      text-shadow: none;
+      transform: scale(1.1);
+      background-color: #555;
+      width: 130px;
+      float: left;
+      padding: 5px;
+    }
+
+    .grow { transition: all .2s ease-in-out; }
+
+    .grow:hover { transform: scale(1.2); }
+
+    .navbar{
+      list-style: none;
+      float: left;
+    }
+    #footer {
+      width: 100%;
+      background-color: black;
+      color: white;
+      clear: both;
+      padding: 5px;
+      text-align: center;;
+    }
+    p.tested {
+      font-size: 15px;
+    }
+    p.copyright {
+      font-weight: bold;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="pictureContainer">
+      <img src="imagine.png" alt="#">
+    </div>
+    <div class="navbar;">
+      <ul class="navbar ">
+        <li><a class="grow focus" href="http://bfy.tw/lzM">Home</a></li>
+        <li><a class="grow focus"href="http://bfy.tw/1ek8">News</a></li>
+        <li><a class="grow focus" href="http://bfy.tw/4ifj">Contact</a></li>
+        <li><a class="grow focus" href="http://bfy.tw/4ifn">About</a></li>
+        <li><a class="grow focus" href="http://bfy.tw/4ifp">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="maincontent">
+    </div>
+    <!--
+    <div class="footer">
+      <img src="facebook-48.png" alt="" class="fb"/>
+      <img src="googleplus-48.png" alt="" />
+      <img src="tumblr-48.png" alt="" />
+      <img src="linkedin-48.png" alt="" />
+      <img src="instagram-48.png" alt="" />
+      <img src="reddit-48.png" alt="" />
+    </div>
+  -->
+  <div id="footer">
+    <p class="tested"> Animations fully functional with Google Chrome<p>
+    <p class="copyright"> Copyright Robert Szekely<p>
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 5px;
+      }
+      /*comment*/
+      /*
+      #nav {
+        line-height: 30px;
+        background-color: #eeeeee;
+        height: 300px;
+        width: 100px;
+        float: left;
+        padding: 5px;
+      }
+      */
+      #footer {
+        background-color: black;
+        color: white;
+        clear: both;
+        padding: 5px;
+        text-align: center;;
+      }
+      ul.navbar {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+        width: 100px;
+        float: left;
+        padding: 5px;
+      }
+      li.navbar,  a.navitem{
+        display: block;
+        color: #000;
+        padding: 8px 0 8px 16px;
+        text-decoration: none;
+      }
+      a.navitem:hover {
+        background-color: #555;
+        color: white;
+      }
+      li.topmenu{
+        display: inline;
+      }
+      a.topmenuitem:link {
+        background-color: #3377ff;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a.topmenuitem:hover {
+        background-color: green;
+      }
+
+
+      /*
+      a:link, a:visited {
+        background-color:  #4682b4;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a:hover, a:active {
+        background-color:#40e0d0;
+      }
+      #topmenu {
+        display: inline;
+      }
+      */
+      table {
+        padding: 5px;
+        float: left;
+        border-collapse: collapse;;
+        width: 85%;
+      }
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+      tr:nth-child(even){background-color: #f2f2f2}
+      th{
+        background-color: #4CAF50;
+        color: white;
+      }
+      tr:hover {background-color: #ccffcc}
+
+    </style>
+  </head>
+  <body>
+    <div id = "header">
+      <h1> City Gallery </h1>
+    </div>
+    <ul class="navbar">
+      <li><a class="navitem" href="bb.com">Home</a></li>
+      <li><a class="navitem"href="bb.com">News</a></li>
+      <li><a class="navitem" href="bb.com">Contact</a></li>
+      <li><a class="navitem" href="bb.com">About</a></li>
+    </ul>
+    <ul class="topmenu">
+      <li class="topmenu"><b> <a class="topmenuitem" href="aaa.com" target="_blank"> Contact </a></b></li>
+      <li class="topmenu"><b> <a class="topmenuitem" href="aaa.com" target="_blank"> Products </a></b></li>
+      <li class="topmenu"><b> <a class="topmenuitem" href="aaa.com" target="_blank"> FAQ </a></b></li>
+      <li class="topmenu"><b> <a class="topmenuitem"href="aaa.com" target="_blank"> Basket </a></b></li>
+      <li class="topmenu"><b> <a class="topmenuitem" href="aaa.com" target="_blank"> Other </a></b></li>
+    </ul>
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Savings</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td>$100</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        <td>$150</td>
+      </tr>
+      <tr>
+        <td>Joe</td>
+        <td>Swanson</td>
+        <td>$300</td>
+      </tr>
+      <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td>$250</td>
+      </tr>
+    </table>
+    <div id="footer">
+      Copyright Robert Szekely
+    </div>
+
+
+  </body>
+</html>
