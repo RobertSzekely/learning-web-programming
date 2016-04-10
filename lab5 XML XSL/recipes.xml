@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<?xml-stylesheet href="recipes.xsl" type="text/xsl" ?>
+
+<collection>
+  <recipe>
+    <name> Salsa Chicken </name>
+    <preptime> 5 </preptime>
+    <cookingtime> 40  </cookingtime>
+    <ingredients>
+      <ingredient> 4 skinless, boneless chicken breast halves, </ingredient>
+      <ingredient> 4 teaspoons taco seasoning mix, </ingredient>
+      <ingredient> 1 cup salsa, 1 cup shredded Cheddar cheese, </ingredient>
+      <ingredient>2 tablespoons sour cream, </ingredient>
+    </ingredients>
+    <prepsteps>
+      <step> Preheat oven to 375 degrees F (190 degrees C) </step>
+      <step> Place chicken breasts in a lightly greased 9x13 inch baking dish. </step>
+      <step> Sprinkle taco seasoning on both sides of chicken breasts, and pour salsa over all. </step>
+      <step> Bake at 375 degrees F (190 degrees C) for 25 to 35 minutes, or until chicken is tender and juicy and its juices run clear. </step>
+      <step>Sprinkle chicken evenly with cheese, and continue baking for an additional 3 to 5 minutes, or until cheese is melted and bubbly.</step>
+      <step> Top with sour cream if desired, and serve. </step>
+    </prepsteps>
+  </recipe>
+
+  <recipe>
+    <name> Spicy Garlic Lime Chicken </name>
+    <preptime> 5  </preptime>
+    <cookingtime> 20 </cookingtime>
+    <ingredients>
+      <ingredient> 3/4 teaspoon salt, </ingredient>
+      <ingredient> 1/4 teaspoon black pepper, </ingredient>
+      <ingredient> 1/4 teaspoon cayenne pepper, </ingredient>
+      <ingredient> 1/8 teaspoon paprika, 1/4 teaspoon garlic powder, </ingredient>
+      <ingredient> 4 boneless, skinless chicken breast halves </ingredient>
+    </ingredients>
+    <prepsteps>
+      <step> In a small bowl, mix together salt, black pepper, cayenne, paprika, 1/4 teaspoon garlic powder, onion powder, thyme and parsley. </step>
+      <step> Sprinkle spice mixture generously on both sides of chicken breasts. </step>
+      <step> Heat butter and olive oil in a large heavy skillet over medium heat. </step>
+      <step> Saute chicken until golden brown, about 6 minutes on each side. </step>
+      <step> Sprinkle with 2 teaspoons garlic powder and lime juice. </step>
+      <step> Cook 5 minutes, stirring frequently to coat evenly with sauce. </step>
+    </prepsteps>
+  </recipe>
+
+  <recipe>
+    <name> Philly Cheesesteak Sandwich </name>
+    <preptime> 10 </preptime>
+    <cookingtime> 20 </cookingtime>
+    <ingredients>
+      <ingredient> 2 cloves garlic, minced, </ingredient>
+      <ingredient> 1 tablespoon olive oil, </ingredient>
+      <ingredient> 1 pound beef round steak, cut into thin strips, </ingredient>
+      <ingredient> 2 green bell peppers, cut into, </ingredient>
+      <ingredient> 1/4 inch strips 2 onions, sliced into rings, </ingredient>
+    </ingredients>
+    <prepsteps>
+      <step> Place the beef in a large bowl. </step>
+      <step> In a small bowl, mix together salt, pepper, paprika, chili powder, onion powder, garlic powder, thyme, marjoram and basil. </step>
+      <step> Sprinkle over beef. </step>
+      <step> Heat half of the oil in a skillet over medium-high heat. </step>
+      <step> Saute beef to desired doneness, and remove from pan. </step>
+      <step> Heat the remaining oil in the skillet, and saute the onion and green pepper </step>
+    </prepsteps>
+  </recipe>
+
+  <recipe>
+    <name> Simple Hamburger Stroganoff </name>
+    <preptime> 20 </preptime>
+    <cookingtime> 10 </cookingtime>
+    <ingredients>
+      <ingredient> 1 (16 ounce) package egg noodles, </ingredient>
+      <ingredient> 1 pound lean ground beef, </ingredient>
+      <ingredient> 1 (.75 ounce) packet dry brown gravy mix, </ingredient>
+      <ingredient> 1 (8 ounce) package cream cheese, </ingredient>
+      <ingredient> 1 (6 ounce) can chopped mushrooms, with liquid </ingredient>
+    </ingredients>
+    <prepsteps>
+      <step> Bring a large pot of lightly salted water to a boil. </step>
+      <step> Add egg noodles and cook for 8 to 10 minutes or until al dente; drain. </step>
+      <step> In a skillet over medium heat, brown the ground beef until no pink shows, about 5 minutes; drain fat.</step>
+    </prepsteps>
+  </recipe>
+
+  <!-- <recipe>
+    <name> </name>
+    <preptime> </preptime>
+    <cookingtime> </cookingtime>
+    <ingredients> </ingredients>
+    <prepsteps> </prepsteps>
+  </recipe>
+ -->
+
+
+</collection>
