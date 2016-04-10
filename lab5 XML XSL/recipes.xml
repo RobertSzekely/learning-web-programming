@@ -82,14 +82,32 @@
     </prepsteps>
   </recipe>
 
+  <recipe>
+    <name> Taco Pie </name>
+    <preptime> 20 </preptime>
+    <cookingtime> 15 </cookingtime>
+    <ingredients>
+      <ingredient> 1 (8 ounce) package refrigerated crescent rolls, </ingredient>
+      <ingredient> 1 pound ground beef ,1 (1 ounce) package taco seasoning mix, </ingredient>
+      <ingredient> (16 ounce) container sour cream, </ingredient>
+      <ingredient> 8 ounces shredded Mexican-style cheese blend </ingredient>
+    </ingredients>
+    <prepsteps>
+      <step> Preheat oven to 350 degrees F (175 degrees C). </step>
+      <step> Lay crescent dough flat on the bottom of a square cake pan and bake according to package directions. </step>
+      <step> Meanwhile, brown the ground beef in a large skillet over medium high heat. </step>
+      <step> Add the taco seasoning and stir together well. When dough is done, remove from oven and place meat mixture on top, then layer with sour cream and cheese, and then top off with the crushed nacho chips. </step>
+    </prepsteps>
+  </recipe>
+
   <!-- <recipe>
     <name> </name>
     <preptime> </preptime>
     <cookingtime> </cookingtime>
     <ingredients> </ingredients>
     <prepsteps> </prepsteps>
-  </recipe>
- -->
+  </recipe> -->
+
 
 
 </collection>
