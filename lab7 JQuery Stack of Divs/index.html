@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery Stack of divs</title>
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <style>
+  div {background-color:#99ccff;}
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 40%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+  </style>
+  <script>
+  $(function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  });
+  </script>
+</head>
+<body>
+<h2> Stack of divs </h2>
+Reorder divs using the mouse. <br/> <br/> <br/>
+<ul id="sortable">
+  <li><div>Div 1</div></li>
+  <li><div>Div 2</div></li>
+  <li><div>Div 3</div></li>
+  <li><div>Div 4</div></li>
+  <li><div>Div 5</div></li>
+  <li><div>Div 6</div></li>
+  <li><div>Div 7</div></li>
+</ul>
+
+
+</body>
+</html>
